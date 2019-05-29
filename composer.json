@@ -1,0 +1,35 @@
+{
+  "name": "ssgroup/helper",
+  "description": "Helper",
+  "type": "libary",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "santosh",
+      "email": "santoshdheke46@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SsGroup\\Helper\\HelperServiceProvider"
+      ]
+    },
+    "aliases": {
+      "AppHelper": "SsGroup\\Helper\\Facades\\AppHelper"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SsGroup\\Helper\\": "src/"
+    },
+    "files": [
+      "ModulePkg/Helper/src/Helper/return-message.php",
+      "ModulePkg/Helper/src/Helper/email-helper.php",
+      "ModulePkg/Helper/src/Helper/crud-helper.php"
+    ]
+  },
+}
