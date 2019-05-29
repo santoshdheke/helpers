@@ -11,17 +11,6 @@
   ],
   "minimum-stability": "dev",
   "require": {},
-  "extra": {
-    "laravel": {
-      "providers": [
-        "SsGroup\\Helper\\HelperServiceProvider"
-      ]
-    },
-    "aliases": {
-      "AppHelper": "SsGroup\\Helper\\Facades\\AppHelper",
-      "ImageHelper": "SsGroup\\Helper\\Facades\\ImageHelper"
-    }
-  },
   "autoload-dev": {
     "psr-4": {
       "SsGroup\\Helper\\": "src/"
