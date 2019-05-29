@@ -1,7 +1,7 @@
 {
   "name": "ssgroup/helper",
   "description": "Helper",
-  "type": "libary",
+  "type": "library",
   "license": "MIT",
   "authors": [
     {
@@ -10,8 +10,7 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {
-  },
+  "require": {},
   "extra": {
     "laravel": {
       "providers": [
@@ -19,7 +18,8 @@
       ]
     },
     "aliases": {
-      "AppHelper": "SsGroup\\Helper\\Facades\\AppHelper"
+      "AppHelper": "SsGroup\\Helper\\Facades\\AppHelper",
+      "ImageHelper": "SsGroup\\Helper\\Facades\\ImageHelper"
     }
   },
   "autoload-dev": {
