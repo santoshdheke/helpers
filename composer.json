@@ -31,5 +31,5 @@
       "ModulePkg/Helper/src/Helper/email-helper.php",
       "ModulePkg/Helper/src/Helper/crud-helper.php"
     ]
-  },
+  }
 }
