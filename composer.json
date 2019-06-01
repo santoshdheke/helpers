@@ -10,10 +10,10 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {},
-  "require-dev": {
+  "require": {
     "nphkr/sysnfo": "dev-master"
   },
+  "require-dev": {},
   "autoload": {
     "psr-4": {
       "SsGroup\\Helper\\": "src/"
