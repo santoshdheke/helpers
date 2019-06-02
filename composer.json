@@ -15,6 +15,11 @@
   },
   "require-dev": {},
   "autoload": {
+    "files": [
+      "src/Helper/return-message.php",
+      "src/Helper/email-helper.php",
+      "src/Helper/crud-helper.php"
+    ],
     "psr-4": {
       "SsGroup\\Helper\\": "src/"
     }
@@ -30,11 +35,5 @@
       }
     }
   },
-  "autoload-dev": {
-    "files": [
-      "ModulePkg/Helper/src/Helper/return-message.php",
-      "ModulePkg/Helper/src/Helper/email-helper.php",
-      "ModulePkg/Helper/src/Helper/crud-helper.php"
-    ]
-  }
+  "autoload-dev": {}
 }
