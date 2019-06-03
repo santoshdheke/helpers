@@ -10,9 +10,7 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {
-    "nphkr/sysnfo": "dev-master"
-  },
+  "require": {},
   "require-dev": {},
   "autoload": {
     "files": [
