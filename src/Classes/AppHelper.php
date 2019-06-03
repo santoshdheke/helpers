@@ -23,6 +23,11 @@ class AppHelper
         $this->module = $value;
     }
 
+    public function test()
+    {
+        return 'its work';
+    }
+
     /**
      * get module
      *
